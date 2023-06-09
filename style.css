@@ -1,0 +1,63 @@
+.main{
+    background-color: #000;
+    color: #fff;
+}
+
+.container.head{
+    margin-top: 100px;
+    margin-bottom: 50px;
+    background-color: #000;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.head>h1{
+    text-align: center;
+    font-size: 3.5rem;
+    font-family: 'IBM Plex Serif', serif;
+}
+
+.sub{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+h2{
+    font-size: 1.5rem;
+    font-family: 'IBM Plex Serif', serif;
+}
+
+img{
+    width: 300px;
+    height: 300px;
+    margin: 10px;
+}
+
+.sub>h1{
+    font-size: 3rem;
+    font-family: 'Nanum Myeongjo', serif;
+}
+
+.button{
+    font-size: 2.5rem;
+    font-family: 'IBM Plex Serif', serif;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+button{
+   height: 50px;
+   width: 140px;
+}
+
+#result img{
+    width: 40px;
+    height: 40px;
+}
+
